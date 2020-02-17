@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MThings>
+    <PORT_LIST>
+        <COM BreakTime="10" Name="COM1" Baund="9600" Parity="0" StopBit="0" TransMode="1"/>
+        <COM BreakTime="100" Name="COM2" Baund="9600" Parity="0" StopBit="0" TransMode="1"/>
+        <COM BreakTime="10" Name="COM3" Baund="9600" Parity="0" StopBit="0" TransMode="0"/>
+        <NET DesIP="192.168.1.100" Name="NET1" LinkMode="0" PortID="502" TransMode="2"/>
+        <NET DesIP="127.0.0.1" Name="NET2" LinkMode="2" PortID="502" TransMode="0"/>
+        <NET DesIP="192.168.0.4" Name="NET3" LinkMode="0" PortID="502" TransMode="0"/>
+        <NET DesIP="192.168.0.10" Name="NET4" LinkMode="0" PortID="502" TransMode="2"/>
+    </PORT_LIST>
+    <DEVICE_LIST>
+        <DEVICE ForwardZero="1" Name="[M]COM1-1" PackWay="1" RegGap="5" AddrOffset="-1" OneCoil0F="0" DeviceType="0" BitGap="0" OneReg10="0" PortName="COM1" Addr="1">
+            <DATA_LIST>
+                <DATA IntervalTime="0" Size="1" Name="测试数据1" PrtcTYPE="1" BLOCK="2" Gain="0.1" WordOder="0" Range="NA" IsShow="1" Unit="NA" ByteOder="0" ShowType="0" Addr="1000">
+                    <TIMEOUT Time="2000" ResendCount="3"/>
+                    <CURVE IsShow="1"/>
+                    <VALUE Default="0"/>
+                </DATA>
+                <DATA IntervalTime="0" Size="1" Name="测试数据2" PrtcTYPE="0" BLOCK="2" Gain="0.1" WordOder="0" Range="NA" IsShow="1" Unit="NA" ByteOder="0" ShowType="0" Addr="1001">
+                    <TIMEOUT Time="2000" ResendCount="3"/>
+                    <CURVE IsShow="1"/>
+                    <VALUE Default="0"/>
+                </DATA>
+                <DATA IntervalTime="0" Size="2" Name="测试数据3" PrtcTYPE="1" BLOCK="2" Gain="0.1" WordOder="0" Range="NA" IsShow="1" Unit="NA" ByteOder="0" ShowType="0" Addr="1002">
+                    <TIMEOUT Time="2000" ResendCount="3"/>
+                    <CURVE IsShow="0"/>
+                    <VALUE Default="0"/>
+                </DATA>
+                <DATA IntervalTime="0" Size="2" Name="测试数据4" PrtcTYPE="1" BLOCK="2" Gain="0.1" WordOder="0" Range="NA" IsShow="1" Unit="NA" ByteOder="0" ShowType="0" Addr="1004">
+                    <TIMEOUT Time="2000" ResendCount="3"/>
+                    <CURVE IsShow="0"/>
+                    <VALUE Default="0"/>
+                </DATA>
+            </DATA_LIST>
+        </DEVICE>
+        <DEVICE ForwardZero="0" Name="[M]NET1-001" PackWay="0" RegGap="5" AddrOffset="0" OneCoil0F="0" DeviceType="0" BitGap="0" OneReg10="0" PortName="NET1" Addr="1">
+            <DATA_LIST>
+                <DATA IntervalTime="0" Size="1" Name="测试数据1" PrtcTYPE="1" BLOCK="2" Gain="0.1" WordOder="0" Range="NA" IsShow="1" Unit="NA" ByteOder="0" ShowType="0" Addr="1000">
+                    <TIMEOUT Time="2000" ResendCount="3"/>
+                    <CURVE IsShow="1"/>
+                    <VALUE Default="0"/>
+                </DATA>
+                <DATA IntervalTime="0" Size="1" Name="测试数据2" PrtcTYPE="0" BLOCK="2" Gain="0.1" WordOder="0" Range="NA" IsShow="1" Unit="NA" ByteOder="0" ShowType="0" Addr="1001">
+                    <TIMEOUT Time="2000" ResendCount="3"/>
+                    <CURVE IsShow="1"/>
+                    <VALUE Default="0"/>
+                </DATA>
+                <DATA IntervalTime="0" Size="2" Name="测试数据3" PrtcTYPE="1" BLOCK="2" Gain="0.1" WordOder="0" Range="NA" IsShow="1" Unit="NA" ByteOder="0" ShowType="0" Addr="1002">
+                    <TIMEOUT Time="2000" ResendCount="3"/>
+                    <CURVE IsShow="0"/>
+                    <VALUE Default="0"/>
+                </DATA>
+                <DATA IntervalTime="0" Size="2" Name="测试数据4" PrtcTYPE="1" BLOCK="2" Gain="0.1" WordOder="0" Range="NA" IsShow="1" Unit="NA" ByteOder="0" ShowType="0" Addr="1004">
+                    <TIMEOUT Time="2000" ResendCount="3"/>
+                    <CURVE IsShow="0"/>
+                    <VALUE Default="0"/>
+                </DATA>
+            </DATA_LIST>
+        </DEVICE>
+        <DEVICE ForwardZero="0" Name="[S]COM2-1" PackWay="0" RegGap="5" AddrOffset="-1" OneCoil0F="0" DeviceType="1" BitGap="0" OneReg10="0" PortName="COM2" Addr="1">
+            <DATA_LIST>
+                <DATA IntervalTime="0" Size="1" Name="测试数据1" PrtcTYPE="1" BLOCK="2" Gain="0.1" WordOder="0" Range="NA" IsShow="1" Unit="NA" ByteOder="0" ShowType="0" Addr="1000">
+                    <TIMEOUT Time="2000" ResendCount="3"/>
+                    <CURVE IsShow="0"/>
+                    <VALUE Default="1"/>
+                </DATA>
+                <DATA IntervalTime="0" Size="1" Name="测试数据2" PrtcTYPE="0" BLOCK="2" Gain="0.1" WordOder="0" Range="NA" IsShow="1" Unit="NA" ByteOder="0" ShowType="0" Addr="1001">
+                    <TIMEOUT Time="2000" ResendCount="3"/>
+                    <CURVE IsShow="0"/>
+                    <VALUE Default="20.1"/>
+                </DATA>
+                <DATA IntervalTime="0" Size="2" Name="测试数据3" PrtcTYPE="1" BLOCK="2" Gain="0.1" WordOder="0" Range="NA" IsShow="1" Unit="NA" ByteOder="0" ShowType="0" Addr="1002">
+                    <TIMEOUT Time="2000" ResendCount="3"/>
+                    <CURVE IsShow="0"/>
+                    <VALUE Default="300.2"/>
+                </DATA>
+                <DATA IntervalTime="0" Size="2" Name="测试数据4" PrtcTYPE="1" BLOCK="2" Gain="0.1" WordOder="0" Range="NA" IsShow="1" Unit="NA" ByteOder="0" ShowType="0" Addr="1004">
+                    <TIMEOUT Time="2000" ResendCount="3"/>
+                    <CURVE IsShow="0"/>
+                    <VALUE Default="4000.3"/>
+                </DATA>
+            </DATA_LIST>
+        </DEVICE>
+        <DEVICE ForwardZero="0" Name="[S]NET2-001" PackWay="0" RegGap="5" AddrOffset="0" OneCoil0F="0" DeviceType="1" BitGap="0" OneReg10="0" PortName="NET2" Addr="1">
+            <DATA_LIST>
+                <DATA IntervalTime="0" Size="1" Name="测试数据1" PrtcTYPE="1" BLOCK="2" Gain="0.1" WordOder="0" Range="NA" IsShow="1" Unit="NA" ByteOder="0" ShowType="0" Addr="1000">
+                    <TIMEOUT Time="2000" ResendCount="3"/>
+                    <CURVE IsShow="1"/>
+                    <VALUE Default="0"/>
+                </DATA>
+                <DATA IntervalTime="0" Size="1" Name="测试数据2" PrtcTYPE="0" BLOCK="2" Gain="0.1" WordOder="0" Range="NA" IsShow="1" Unit="NA" ByteOder="0" ShowType="0" Addr="1001">
+                    <TIMEOUT Time="2000" ResendCount="3"/>
+                    <CURVE IsShow="1"/>
+                    <VALUE Default="0"/>
+                </DATA>
+                <DATA IntervalTime="0" Size="2" Name="测试数据3" PrtcTYPE="1" BLOCK="2" Gain="0.1" WordOder="0" Range="NA" IsShow="1" Unit="NA" ByteOder="0" ShowType="0" Addr="1002">
+                    <TIMEOUT Time="2000" ResendCount="3"/>
+                    <CURVE IsShow="0"/>
+                    <VALUE Default="0"/>
+                </DATA>
+                <DATA IntervalTime="0" Size="2" Name="测试数据4" PrtcTYPE="1" BLOCK="2" Gain="0.1" WordOder="0" Range="NA" IsShow="1" Unit="NA" ByteOder="0" ShowType="0" Addr="1004">
+                    <TIMEOUT Time="2000" ResendCount="3"/>
+                    <CURVE IsShow="0"/>
+                    <VALUE Default="0"/>
+                </DATA>
+            </DATA_LIST>
+        </DEVICE>
+    </DEVICE_LIST>
+</MThings>
