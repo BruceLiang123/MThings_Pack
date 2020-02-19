@@ -2,7 +2,7 @@
 <MThings>
     <PORT_LIST>
         <COM BreakTime="10" Name="COM1" Baund="9600" Parity="0" StopBit="0" TransMode="1"/>
-        <COM BreakTime="100" Name="COM2" Baund="9600" Parity="0" StopBit="0" TransMode="1"/>
+        <COM BreakTime="10" Name="COM2" Baund="9600" Parity="0" StopBit="0" TransMode="1"/>
         <COM BreakTime="10" Name="COM3" Baund="9600" Parity="0" StopBit="0" TransMode="0"/>
         <NET DesIP="192.168.1.100" Name="NET1" LinkMode="0" PortID="502" TransMode="2"/>
         <NET DesIP="127.0.0.1" Name="NET2" LinkMode="2" PortID="502" TransMode="0"/>
