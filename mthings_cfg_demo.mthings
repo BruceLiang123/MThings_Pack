@@ -6,123 +6,91 @@
 		<NET Name="NET001" DesIP="127.0.0.1" PortID="502" LinkMode="1" TransMode="2" MaxAsynNum="15" />
 	</PORT_LIST>
 	<DEVICE_LIST>
-		<DEVICE Name="[M]COM1-001" PortName="COM1" DeviceType="1" Addr="1" ForwardZero="0" AddrOffset="0" PackWay="1" BitGap="0" RegGap="5" OneReg10="0" OneCoil0F="0">
+		<DEVICE Name="[M]NET000-001" PortName="NET000" DeviceType="1" Addr="1" ForwardZero="0" AddrOffset="0" PackWay="1" BitGap="0" RegGap="5" OneReg10="0" OneCoil0F="0" BCast1="0" BCast2="0" IsBCDevice="0">
 			<DATA_LIST>
-				<DATA Name="测试数据1" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="1" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+				<DATA Name="测试数据BIT1" BLOCK="0" PrtcTYPE="4" Unit="--" ShowType="1" Addr="100" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="100" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
-					<CURVE IsShow="0" />
-					<VALUE Default="0" />
+					<CURVE IsShow="1" />
+					<VALUE Stategy="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
-				<DATA Name="测试数据2" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="2" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+				<DATA Name="测试数据BIT2" BLOCK="1" PrtcTYPE="4" Unit="--" ShowType="1" Addr="200" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="100" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Default="0" />
+					<VALUE Stategy="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
-				<DATA Name="测试数据3" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="3" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+				<DATA Name="测试数据1" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="2" Addr="100" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="100" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Default="0" />
+					<VALUE Stategy="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
-				<DATA Name="测试数据4" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="4" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+				<DATA Name="测试数据3" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="101" Gain="0.01" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="100" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="1" />
+					<VALUE Stategy="1" Coef_a="0.5" Coef_b="0" Coef_c="0" Coef_d="" XStep="0.01" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+				</DATA>
+				<DATA Name="测试数据2" BLOCK="2" PrtcTYPE="0" Unit="--" ShowType="0" Addr="102" Gain="0.001" Size="2" Range="--" ByteOder="0" WordOder="0" IntervalTime="100" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="1" />
+					<VALUE Stategy="2" Coef_a="-0.53" Coef_b="46" Coef_c="2" Coef_d="" XStep="0.01" XInvl="10" MaxRadom="10" MinRadom="0" MaxValue="850" MinValue="0" />
+				</DATA>
+				<DATA Name="测试数据4" BLOCK="3" PrtcTYPE="2" Unit="--" ShowType="0" Addr="100" Gain="1" Size="2" Range="--" ByteOder="0" WordOder="0" IntervalTime="100" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="1" />
+					<VALUE Stategy="3" Coef_a="20" Coef_b="0" Coef_c="0" Coef_d="" XStep="0.01" XInvl="10" MaxRadom="5" MinRadom="0" MaxValue="0" MinValue="0" />
+				</DATA>
+				<DATA Name="测试数据4" BLOCK="3" PrtcTYPE="1" Unit="--" ShowType="3" Addr="102" Gain="1" Size="2" Range="--" ByteOder="0" WordOder="0" IntervalTime="100" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Default="0" />
+					<VALUE Stategy="0" Coef_a="0X64" Coef_b="0" Coef_c="0" Coef_d="" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+				</DATA>
+				<DATA Name="测试数据4" BLOCK="3" PrtcTYPE="3" Unit="--" ShowType="5" Addr="104" Gain="1" Size="3" Range="--" ByteOder="0" WordOder="0" IntervalTime="100" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" />
+					<VALUE Stategy="4" Coef_a="abc" Coef_b="ABC" Coef_c="0" Coef_d="" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 			</DATA_LIST>
 		</DEVICE>
-		<DEVICE Name="[M]COM1-002" PortName="COM1" DeviceType="1" Addr="2" ForwardZero="0" AddrOffset="0" PackWay="1" BitGap="0" RegGap="5" OneReg10="0" OneCoil0F="0">
+		<DEVICE Name="[S]NET001-001" PortName="NET001" DeviceType="2" Addr="1" ForwardZero="0" AddrOffset="0" PackWay="0" BitGap="0" RegGap="5" OneReg10="0" OneCoil0F="0" BCast1="0" BCast2="0" IsBCDevice="0">
 			<DATA_LIST>
-				<DATA Name="测试数据1" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="1" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+				<DATA Name="测试数据BIT1" BLOCK="0" PrtcTYPE="4" Unit="--" ShowType="1" Addr="100" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Default="0" />
+					<VALUE Stategy="4" Coef_a="0" Coef_b="1" Coef_c="0" Coef_d="" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
-				<DATA Name="测试数据2" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="2" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+				<DATA Name="测试数据BIT2" BLOCK="1" PrtcTYPE="4" Unit="--" ShowType="1" Addr="200" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Default="0" />
+					<VALUE Stategy="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
-				<DATA Name="测试数据3" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="3" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+				<DATA Name="测试数据1" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="2" Addr="100" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Default="0" />
+					<VALUE Stategy="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
-				<DATA Name="测试数据4" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="4" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+				<DATA Name="测试数据3" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="101" Gain="0.01" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Default="0" />
+					<VALUE Stategy="1" Coef_a="0.5" Coef_b="0" Coef_c="0" Coef_d="" XStep="0.01" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
-			</DATA_LIST>
-		</DEVICE>
-		<DEVICE Name="[M]COM1-003" PortName="COM1" DeviceType="1" Addr="3" ForwardZero="0" AddrOffset="0" PackWay="1" BitGap="0" RegGap="5" OneReg10="0" OneCoil0F="0">
-			<DATA_LIST>
-				<DATA Name="测试数据1" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="1" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+				<DATA Name="测试数据2" BLOCK="2" PrtcTYPE="0" Unit="--" ShowType="0" Addr="102" Gain="0.001" Size="2" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Default="0" />
+					<VALUE Stategy="2" Coef_a="-0.53" Coef_b="46" Coef_c="2" Coef_d="" XStep="0.01" XInvl="10" MaxRadom="10" MinRadom="0" MaxValue="850" MinValue="0" />
 				</DATA>
-				<DATA Name="测试数据2" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="2" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+				<DATA Name="测试数据4" BLOCK="3" PrtcTYPE="2" Unit="--" ShowType="0" Addr="100" Gain="1" Size="2" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Default="0" />
+					<VALUE Stategy="3" Coef_a="20" Coef_b="0" Coef_c="0" Coef_d="" XStep="0.01" XInvl="10" MaxRadom="5" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
-				<DATA Name="测试数据3" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="3" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+				<DATA Name="测试数据4" BLOCK="3" PrtcTYPE="1" Unit="--" ShowType="3" Addr="102" Gain="1" Size="2" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Default="0" />
+					<VALUE Stategy="0" Coef_a="0X64" Coef_b="0" Coef_c="0" Coef_d="" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
-				<DATA Name="测试数据4" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="4" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+				<DATA Name="测试数据4" BLOCK="3" PrtcTYPE="3" Unit="--" ShowType="5" Addr="104" Gain="1" Size="3" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Default="0" />
-				</DATA>
-			</DATA_LIST>
-		</DEVICE>
-		<DEVICE Name="[M]NET000-001" PortName="NET000" DeviceType="1" Addr="1" ForwardZero="0" AddrOffset="0" PackWay="1" BitGap="0" RegGap="5" OneReg10="0" OneCoil0F="0">
-			<DATA_LIST>
-				<DATA Name="测试数据1" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="1" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
-					<TIMEOUT Time="2000" ResendCount="0" />
-					<CURVE IsShow="0" />
-					<VALUE Default="0" />
-				</DATA>
-				<DATA Name="测试数据2" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="2" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
-					<TIMEOUT Time="2000" ResendCount="0" />
-					<CURVE IsShow="0" />
-					<VALUE Default="0" />
-				</DATA>
-				<DATA Name="测试数据3" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="3" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
-					<TIMEOUT Time="2000" ResendCount="0" />
-					<CURVE IsShow="0" />
-					<VALUE Default="0" />
-				</DATA>
-				<DATA Name="测试数据4" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="4" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
-					<TIMEOUT Time="2000" ResendCount="0" />
-					<CURVE IsShow="0" />
-					<VALUE Default="0" />
-				</DATA>
-			</DATA_LIST>
-		</DEVICE>
-		<DEVICE Name="[S]NET001-001" PortName="NET001" DeviceType="2" Addr="1" ForwardZero="0" AddrOffset="0" PackWay="0" BitGap="0" RegGap="5" OneReg10="0" OneCoil0F="0">
-			<DATA_LIST>
-				<DATA Name="测试数据1" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="1" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
-					<TIMEOUT Time="2000" ResendCount="0" />
-					<CURVE IsShow="0" />
-					<VALUE Default="0" />
-				</DATA>
-				<DATA Name="测试数据2" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="2" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
-					<TIMEOUT Time="2000" ResendCount="0" />
-					<CURVE IsShow="0" />
-					<VALUE Default="0" />
-				</DATA>
-				<DATA Name="测试数据3" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="3" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
-					<TIMEOUT Time="2000" ResendCount="0" />
-					<CURVE IsShow="0" />
-					<VALUE Default="0" />
-				</DATA>
-				<DATA Name="测试数据4" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="4" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
-					<TIMEOUT Time="2000" ResendCount="0" />
-					<CURVE IsShow="0" />
-					<VALUE Default="0" />
+					<VALUE Stategy="4" Coef_a="abc" Coef_b="ABC" Coef_c="0" Coef_d="" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 			</DATA_LIST>
 		</DEVICE>
