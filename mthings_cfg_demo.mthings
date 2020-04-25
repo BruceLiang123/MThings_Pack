@@ -11,42 +11,42 @@
 				<DATA Name="测试数据BIT1" BLOCK="0" PrtcTYPE="4" Unit="--" ShowType="1" Addr="100" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="100" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="1" />
-					<VALUE Stategy="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 				<DATA Name="测试数据BIT2" BLOCK="1" PrtcTYPE="4" Unit="--" ShowType="1" Addr="200" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="100" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Stategy="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 				<DATA Name="测试数据1" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="2" Addr="100" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="100" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Stategy="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 				<DATA Name="测试数据3" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="101" Gain="0.01" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="100" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="1" />
-					<VALUE Stategy="1" Coef_a="0.5" Coef_b="0" Coef_c="0" Coef_d="" XStep="0.01" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+					<VALUE Stategy="1" TimeBngrWay="0" Coef_a="0.5" Coef_b="0" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 				<DATA Name="测试数据2" BLOCK="2" PrtcTYPE="0" Unit="--" ShowType="0" Addr="102" Gain="0.001" Size="2" Range="--" ByteOder="0" WordOder="0" IntervalTime="100" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="1" />
-					<VALUE Stategy="2" Coef_a="-0.53" Coef_b="46" Coef_c="2" Coef_d="" XStep="0.01" XInvl="10" MaxRadom="10" MinRadom="0" MaxValue="850" MinValue="0" />
+					<VALUE Stategy="2" TimeBngrWay="0" Coef_a="-0.53" Coef_b="46" Coef_c="2" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="10" MinRadom="0" MaxValue="850" MinValue="0" />
 				</DATA>
 				<DATA Name="测试数据4" BLOCK="3" PrtcTYPE="2" Unit="--" ShowType="0" Addr="100" Gain="1" Size="2" Range="--" ByteOder="0" WordOder="0" IntervalTime="100" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="1" />
-					<VALUE Stategy="3" Coef_a="20" Coef_b="0" Coef_c="0" Coef_d="" XStep="0.01" XInvl="10" MaxRadom="5" MinRadom="0" MaxValue="0" MinValue="0" />
+					<VALUE Stategy="3" TimeBngrWay="0" Coef_a="20" Coef_b="0" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="5" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 				<DATA Name="测试数据4" BLOCK="3" PrtcTYPE="1" Unit="--" ShowType="3" Addr="102" Gain="1" Size="2" Range="--" ByteOder="0" WordOder="0" IntervalTime="100" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Stategy="0" Coef_a="0X64" Coef_b="0" Coef_c="0" Coef_d="" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0X64" Coef_b="0" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 				<DATA Name="测试数据4" BLOCK="3" PrtcTYPE="3" Unit="--" ShowType="5" Addr="104" Gain="1" Size="3" Range="--" ByteOder="0" WordOder="0" IntervalTime="100" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Stategy="4" Coef_a="abc" Coef_b="ABC" Coef_c="0" Coef_d="" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="abc" Coef_b="ABC" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 			</DATA_LIST>
 		</DEVICE>
@@ -55,42 +55,42 @@
 				<DATA Name="测试数据BIT1" BLOCK="0" PrtcTYPE="4" Unit="--" ShowType="1" Addr="100" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Stategy="4" Coef_a="0" Coef_b="1" Coef_c="0" Coef_d="" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="0" Coef_b="1" Coef_c="1" Coef_d="1" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 				<DATA Name="测试数据BIT2" BLOCK="1" PrtcTYPE="4" Unit="--" ShowType="1" Addr="200" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Stategy="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 				<DATA Name="测试数据1" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="2" Addr="100" Gain="1" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Stategy="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 				<DATA Name="测试数据3" BLOCK="2" PrtcTYPE="1" Unit="--" ShowType="0" Addr="101" Gain="0.01" Size="1" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Stategy="1" Coef_a="0.5" Coef_b="0" Coef_c="0" Coef_d="" XStep="0.01" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+					<VALUE Stategy="1" TimeBngrWay="0" Coef_a="0" Coef_b="100" Coef_c="12" Coef_d="" Coef_e="0" ResetStep="1" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 				<DATA Name="测试数据2" BLOCK="2" PrtcTYPE="0" Unit="--" ShowType="0" Addr="102" Gain="0.001" Size="2" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Stategy="2" Coef_a="-0.53" Coef_b="46" Coef_c="2" Coef_d="" XStep="0.01" XInvl="10" MaxRadom="10" MinRadom="0" MaxValue="850" MinValue="0" />
+					<VALUE Stategy="2" TimeBngrWay="1" Coef_a="6" Coef_b="6" Coef_c="0" Coef_d="12" Coef_e="0" ResetStep="12" XInvl="10" MaxRadom="0.20000000000000001" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 				<DATA Name="测试数据4" BLOCK="3" PrtcTYPE="2" Unit="--" ShowType="0" Addr="100" Gain="1" Size="2" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Stategy="3" Coef_a="20" Coef_b="0" Coef_c="0" Coef_d="" XStep="0.01" XInvl="10" MaxRadom="5" MinRadom="0" MaxValue="0" MinValue="0" />
+					<VALUE Stategy="3" TimeBngrWay="0" Coef_a="20" Coef_b="6" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="2" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 				<DATA Name="测试数据4" BLOCK="3" PrtcTYPE="1" Unit="--" ShowType="3" Addr="102" Gain="1" Size="2" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Stategy="0" Coef_a="0X64" Coef_b="0" Coef_c="0" Coef_d="" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0X64" Coef_b="0" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 				<DATA Name="测试数据4" BLOCK="3" PrtcTYPE="3" Unit="--" ShowType="5" Addr="104" Gain="1" Size="3" Range="--" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
 					<TIMEOUT Time="2000" ResendCount="0" />
 					<CURVE IsShow="0" />
-					<VALUE Stategy="4" Coef_a="abc" Coef_b="ABC" Coef_c="0" Coef_d="" XStep="1" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="abc" Coef_b="1.0" Coef_c="cba" Coef_d="1.0" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" />
 				</DATA>
 			</DATA_LIST>
 		</DEVICE>
