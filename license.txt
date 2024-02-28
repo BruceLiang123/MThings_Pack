@@ -1,0 +1,34 @@
+MThings 许可证(License)
+==================
+
+除非另有说明，MThings安装包中包含的所有文档和软件的版权归长念所有。
+Except where otherwise noted, all of the documentation and software included in the MThings Setup package is copyrighted by 长念.
+
+Copyright (C) 2020-至今 长念（上海）技术开发有限公司 版权所有. All rights reserved.
+
+本软件按“原样”提供，没有任何明示或暗示的保证。在任何情况下，作者均不对因使用本软件而造成的任何损失负责。
+This software is provided "as-is," without any express or implied warranty. In no event shall the author be held liable for any damages arising from the use of this software.
+
+只要满足以下条件，任何人都可以将本软件用于任何目的，包括商业应用程序，并对其进行更改和重新分发：
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter and redistribute it, provided that the following conditions are met:
+
+1. 软件文件的所有再分发必须保留所有现行有效的版权声明，以及此条件列表，禁止修改。
+1. All redistributions of software files must retain all copyright notices that are currently in place, and this list of conditions without modification.
+
+2. 所有二进制形式的再分发必须保留所有出现的上述版权声明和当前存在的网站地址（例如，在“关于”框中）。
+2. All redistributions in binary form must retain all occurrences of the above copyright notice and web site addresses that are currently in place (for example, in the About boxes).
+
+3、不得歪曲本软件的出处；您不得声称您编写了原始软件。如果您使用此软件分发产品，我们将不胜感激产品文档中的引用声明，但不是必需的。
+3. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software to distribute a product, an acknowledgment in the product documentation would be appreciated but is not required.
+
+4. 二进制形式的修改版本必须清楚地标明，不得歪曲为原始软件。
+4. Modified versions in  binary form must be plainly marked as such, and must not be misrepresented as being the original software.
+
+5. 软件中的授权功能需要付费使用，禁止抄袭、篡改、破解。
+5. The authorized features in the software need to be paid, and plagiarism, tampering, and cracking are prohibited.
+
+6. 软件中的免费功能仅限个人使用，禁止商业应用。
+6. The free features in the software are limited to personal using, but commercial using are prohibited.
+
+长念（上海）技术开发有限公司
+Chang Nian(ShangHai) Technology Co., Ltd.

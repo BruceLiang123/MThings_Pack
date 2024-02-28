@@ -1,0 +1,145 @@
+2024-02-28 10:27:13::Codec For Locale:  "GB18030"
+2024-02-28 10:27:13::Import Cfg File XML: "E:/mtp/mthings_cfg_demo.mthings"
+2024-02-28 10:27:13::Device Reg Port: "NET000" 1
+2024-02-28 10:27:13::Creat New Port By Reg: "NET000"
+2024-02-28 10:27:13::"New Device Obj:[M]Station-1" ("NET000")
+2024-02-28 10:27:13::"New Port Obj:NET000" 0
+2024-02-28 10:27:13::Device Reg Port: "NET001" 2
+2024-02-28 10:27:13::Creat New Port By Reg: "NET001"
+2024-02-28 10:27:13::"New Device Obj:[S]Station-1" ("NET001")
+2024-02-28 10:27:13::"New Port Obj:NET001" 1
+2024-02-28 10:27:13::Device Reg Port: "NET000" 5
+2024-02-28 10:27:13::"New Device Obj:[M]Station-2" ("NET000")
+2024-02-28 10:27:13::Device Reg Port: "NET000" 6
+2024-02-28 10:27:13::"New Device Obj:[M]Station-3" ("NET000")
+2024-02-28 10:27:13::Device Reg Port: "NET001" 7
+2024-02-28 10:27:13::"New Device Obj:[S]Station-2" ("NET001")
+2024-02-28 10:27:13::Device Reg Port: "NET001" 8
+2024-02-28 10:27:13::"New Device Obj:[S]Station-3" ("NET001")
+2024-02-28 10:27:13::Success to Link Alarm DB!
+2024-02-28 10:27:13::Init Mqtt Links: 0
+2024-02-28 10:27:13::Launch APP! "Ä¦¶ûÐÅÊ¹   V0.6.1.1103" "2024-02-28 10:24:19" "COMPUTERNAME=DESKTOP-B6293BH"
+2024-02-28 10:27:13::Server Start: 502
+2024-02-28 10:27:14::bool __thiscall QCPLayoutGrid::addElement(int,int,class QCPLayoutElement *) There is already an element in the specified row/column: 0 0
+2024-02-28 10:27:14::addDatabase:  "E:/mtp/db_file/alarmdata.db"
+2024-02-28 10:27:14::"Connected with: 127.0.0.1:" 502
+2024-02-28 10:27:14::"New Server Link: NET001" "" 61390
+2024-02-28 10:27:14::New Server Link:  QHostAddress("::ffff:127.0.0.1") 61390 QHostAddress("::ffff:127.0.0.1") 502
+2024-02-28 10:27:23::Success to Link His DB! "20240228"
+2024-02-28 10:27:23::Error: Fail to delete table: "hisdata_2" QSqlError("1", "Unable to execute statement", "no such table: hisdata_2")
+2024-02-28 10:27:23::Error: Fail to delete table: "hisdata_5" QSqlError("1", "Unable to execute statement", "no such table: hisdata_5")
+2024-02-28 10:27:23::Error: Fail to delete table: "hisdata_7" QSqlError("1", "Unable to execute statement", "no such table: hisdata_7")
+2024-02-28 10:27:23::Error: Fail to delete table: "hisdata_8" QSqlError("1", "Unable to execute statement", "no such table: hisdata_8")
+2024-02-28 10:27:31::"Save Cfg File OK:E:/mtp/mthings_cfg_demo.mthings"
+2024-02-28 10:27:31::Exit Window!
+2024-02-28 10:27:31::Core Func Thread Exit!
+2024-02-28 10:27:31::Device Mgr Thread Exit!
+2024-02-28 10:27:31::Release Device Obj: 1 ("NET000")
+2024-02-28 10:27:31::Release Device Obj: 2 ("NET001")
+2024-02-28 10:27:31::Release Device Obj: 5 ("NET000")
+2024-02-28 10:27:31::"Unconnect with: 127.0.0.1:" 502
+2024-02-28 10:27:31::"Disconnect with: 127.0.0.1:" 502
+2024-02-28 10:27:31::"Server Link Break: NET001" ""
+2024-02-28 10:27:31::"Del Port Obj:NET000"
+2024-02-28 10:27:31::"Port Thread Exit:NET000"
+2024-02-28 10:27:31::Del Port By Unreg: "NET000"
+2024-02-28 10:27:31::Release Device Obj: 6 ("NET000")
+2024-02-28 10:27:31::Release Device Obj: 7 ("NET001")
+2024-02-28 10:27:31::Server Closed:  502
+2024-02-28 10:27:31::"Del Port Obj:NET001"
+2024-02-28 10:27:31::"Port Thread Exit:NET001"
+2024-02-28 10:27:31::Del Port By Unreg: "NET001"
+2024-02-28 10:27:31::Release Device Obj: 8 ("NET001")
+2024-02-28 10:27:31::Codec For Locale:  "GB18030"
+2024-02-28 10:27:31::Import Cfg File XML: "E:/mtp/mthings_cfg_demo.mthings"
+2024-02-28 10:27:31::Device Reg Port: "NET000" 1
+2024-02-28 10:27:31::Creat New Port By Reg: "NET000"
+2024-02-28 10:27:31::"New Device Obj:[M]Station-1" ("NET000")
+2024-02-28 10:27:31::"New Port Obj:NET000" 0
+2024-02-28 10:27:31::Device Reg Port: "NET001" 2
+2024-02-28 10:27:31::Creat New Port By Reg: "NET001"
+2024-02-28 10:27:31::"New Device Obj:[S]Station-1" ("NET001")
+2024-02-28 10:27:31::"New Port Obj:NET001" 1
+2024-02-28 10:27:31::Device Reg Port: "NET000" 5
+2024-02-28 10:27:31::"New Device Obj:[M]Station-2" ("NET000")
+2024-02-28 10:27:31::Device Reg Port: "NET000" 6
+2024-02-28 10:27:31::"New Device Obj:[M]Station-3" ("NET000")
+2024-02-28 10:27:31::Device Reg Port: "NET001" 7
+2024-02-28 10:27:31::"New Device Obj:[S]Station-2" ("NET001")
+2024-02-28 10:27:31::Device Reg Port: "NET001" 8
+2024-02-28 10:27:31::"New Device Obj:[S]Station-3" ("NET001")
+2024-02-28 10:27:31::Success to Link Alarm DB!
+2024-02-28 10:27:31::Init Mqtt Links: 0
+2024-02-28 10:27:31::Launch APP! "MThings   V0.6.1.1103" "2024-02-28 10:24:19" "COMPUTERNAME=DESKTOP-B6293BH"
+2024-02-28 10:27:32::bool __thiscall QCPLayoutGrid::addElement(int,int,class QCPLayoutElement *) There is already an element in the specified row/column: 0 0
+2024-02-28 10:27:32::Server Start: 502
+2024-02-28 10:27:32::addDatabase:  "E:/mtp/db_file/alarmdata.db"
+2024-02-28 10:27:32::"Connected with: 127.0.0.1:" 502
+2024-02-28 10:27:32::"New Server Link: NET001" "" 61397
+2024-02-28 10:27:32::New Server Link:  QHostAddress("::ffff:127.0.0.1") 61397 QHostAddress("::ffff:127.0.0.1") 502
+2024-02-28 10:27:33::Exit Window!
+2024-02-28 10:27:33::Core Func Thread Exit!
+2024-02-28 10:27:33::Device Mgr Thread Exit!
+2024-02-28 10:27:33::Release Device Obj: 1 ("NET000")
+2024-02-28 10:27:33::Release Device Obj: 2 ("NET001")
+2024-02-28 10:27:33::Release Device Obj: 5 ("NET000")
+2024-02-28 10:27:33::"Unconnect with: 127.0.0.1:" 502
+2024-02-28 10:27:33::"Server Link Break: NET001" ""
+2024-02-28 10:27:33::"Disconnect with: 127.0.0.1:" 502
+2024-02-28 10:27:33::"Del Port Obj:NET000"
+2024-02-28 10:27:33::"Port Thread Exit:NET000"
+2024-02-28 10:27:33::Del Port By Unreg: "NET000"
+2024-02-28 10:27:33::Release Device Obj: 6 ("NET000")
+2024-02-28 10:27:33::Release Device Obj: 7 ("NET001")
+2024-02-28 10:27:33::Server Closed:  502
+2024-02-28 10:27:33::"Del Port Obj:NET001"
+2024-02-28 10:27:33::"Port Thread Exit:NET001"
+2024-02-28 10:27:33::Del Port By Unreg: "NET001"
+2024-02-28 10:27:33::Release Device Obj: 8 ("NET001")
+2024-02-28 10:28:20::Codec For Locale:  "GB18030"
+2024-02-28 10:28:20::Import Cfg File XML: "mthings_cfg_demo_en.mthings"
+2024-02-28 10:28:20::Device Reg Port: "NET000" 1
+2024-02-28 10:28:20::Creat New Port By Reg: "NET000"
+2024-02-28 10:28:20::"New Device Obj:[M]Station-1" ("NET000")
+2024-02-28 10:28:20::"New Port Obj:NET000" 0
+2024-02-28 10:28:20::Device Reg Port: "NET001" 2
+2024-02-28 10:28:20::Creat New Port By Reg: "NET001"
+2024-02-28 10:28:20::"New Device Obj:[S]Station-1" ("NET001")
+2024-02-28 10:28:20::"New Port Obj:NET001" 1
+2024-02-28 10:28:20::Device Reg Port: "NET000" 5
+2024-02-28 10:28:20::"New Device Obj:[M]Station-2" ("NET000")
+2024-02-28 10:28:20::Device Reg Port: "NET000" 6
+2024-02-28 10:28:20::"New Device Obj:[M]Station-3" ("NET000")
+2024-02-28 10:28:20::Device Reg Port: "NET001" 7
+2024-02-28 10:28:20::"New Device Obj:[S]Station-2" ("NET001")
+2024-02-28 10:28:20::Device Reg Port: "NET001" 8
+2024-02-28 10:28:20::"New Device Obj:[S]Station-3" ("NET001")
+2024-02-28 10:28:20::Success to Link Alarm DB!
+2024-02-28 10:28:20::Init Mqtt Links: 0
+2024-02-28 10:28:20::Launch APP! "MThings   V0.6.1.1103" "2024-02-28 10:24:19" "COMPUTERNAME=DESKTOP-B6293BH"
+2024-02-28 10:28:20::bool __thiscall QCPLayoutGrid::addElement(int,int,class QCPLayoutElement *) There is already an element in the specified row/column: 0 0
+2024-02-28 10:28:20::Server Start: 502
+2024-02-28 10:28:20::addDatabase:  "E:/mtp/db_file/alarmdata.db"
+2024-02-28 10:28:21::"Connected with: 127.0.0.1:" 502
+2024-02-28 10:28:21::"New Server Link: NET001" "" 61401
+2024-02-28 10:28:21::New Server Link:  QHostAddress("::ffff:127.0.0.1") 61401 QHostAddress("::ffff:127.0.0.1") 502
+2024-02-28 10:28:24::Abandon Cfg Changed!
+2024-02-28 10:28:24::Exit Window!
+2024-02-28 10:28:24::Core Func Thread Exit!
+2024-02-28 10:28:24::Device Mgr Thread Exit!
+2024-02-28 10:28:24::Release Device Obj: 1 ("NET000")
+2024-02-28 10:28:24::Release Device Obj: 2 ("NET001")
+2024-02-28 10:28:24::Release Device Obj: 5 ("NET000")
+2024-02-28 10:28:24::"Unconnect with: 127.0.0.1:" 502
+2024-02-28 10:28:24::"Server Link Break: NET001" ""
+2024-02-28 10:28:24::"Disconnect with: 127.0.0.1:" 502
+2024-02-28 10:28:24::"Del Port Obj:NET000"
+2024-02-28 10:28:24::"Port Thread Exit:NET000"
+2024-02-28 10:28:24::Del Port By Unreg: "NET000"
+2024-02-28 10:28:24::Release Device Obj: 6 ("NET000")
+2024-02-28 10:28:24::Release Device Obj: 7 ("NET001")
+2024-02-28 10:28:24::Server Closed:  502
+2024-02-28 10:28:24::"Del Port Obj:NET001"
+2024-02-28 10:28:24::"Port Thread Exit:NET001"
+2024-02-28 10:28:24::Del Port By Unreg: "NET001"
+2024-02-28 10:28:24::Release Device Obj: 8 ("NET001")

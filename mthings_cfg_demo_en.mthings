@@ -1,0 +1,449 @@
+<?xml version="1.0"?>
+<MThings>
+	<PORT_LIST>
+		<NET Name="NET000" Remarks="" DesIP="127.0.0.1" LocalPortID="502" LocalIP="" SessionKey="" DesPortID="502" LinkMode="0" LinkResetTime="0" LinkHoldTime="6000" TransMode="2" CharType="0" MaxAsynNum="15" />
+		<NET Name="NET001" Remarks="" DesIP="" LocalPortID="502" LocalIP="" SessionKey="" DesPortID="56582" LinkMode="1" LinkResetTime="0" LinkHoldTime="6000" TransMode="2" CharType="0" MaxAsynNum="15" />
+	</PORT_LIST>
+	<SIGNT SYS_DATA="" ALARM="" HISDATA="" />
+	<HISDATA>
+		<DEVICE ID="1">
+			<DATA ID="1" />
+			<DATA ID="3" />
+			<DATA ID="4" />
+			<DATA ID="5" />
+			<DATA ID="6" />
+			<DATA ID="7" />
+			<DATA ID="8" />
+			<DATA ID="9" />
+			<DATA ID="2" />
+		</DEVICE>
+		<DEVICE ID="5">
+			<DATA ID="1" />
+			<DATA ID="3" />
+			<DATA ID="4" />
+			<DATA ID="5" />
+			<DATA ID="6" />
+			<DATA ID="7" />
+			<DATA ID="8" />
+			<DATA ID="9" />
+			<DATA ID="2" />
+		</DEVICE>
+		<DEVICE ID="6">
+			<DATA ID="1" />
+			<DATA ID="3" />
+			<DATA ID="4" />
+			<DATA ID="5" />
+			<DATA ID="6" />
+			<DATA ID="7" />
+			<DATA ID="8" />
+			<DATA ID="9" />
+			<DATA ID="2" />
+		</DEVICE>
+	</HISDATA>
+	<ALARM_LIST>
+		<TYPELIST />
+	</ALARM_LIST>
+	<SYS_DATA Title="" BackColor="#ff222a35" width="1920" hight="930" PicPath="./pic/stat1.png">
+		<CHIP ID="2" Pageid="1" Type="24" PosX="204" PosY="281" Width="69" Height="69" Intvl="10" ExtroPara="layout::0;openV::1;closeV::0;openC::#ff00aa00;closeC::#ffe8e800;default::0;openSk::OFF;shrkHz::2;tagshow::OFF;tagcolor::#FF000000;fsize::15;">
+			<DeviceData DeviceID="1" DataID="2" />
+		</CHIP>
+		<CHIP ID="3" Pageid="1" Type="0" PosX="133" PosY="634" Width="231" Height="242" Intvl="10" ExtroPara="uint::ON;tlcolor::#ffffffff;vlcolor::#ffffffff;gdcolor::#FFCFCCC9;backcolor::#00ffffff;">
+			<DeviceData DeviceID="1" DataID="1" />
+			<DeviceData DeviceID="1" DataID="3" />
+			<DeviceData DeviceID="1" DataID="4" />
+			<DeviceData DeviceID="1" DataID="5" />
+			<DeviceData DeviceID="1" DataID="6" />
+			<DeviceData DeviceID="1" DataID="7" />
+			<DeviceData DeviceID="1" DataID="8" />
+			<DeviceData DeviceID="1" DataID="9" />
+		</CHIP>
+		<CHIP ID="4" Pageid="1" Type="18" PosX="145" PosY="564" Width="200" Height="50" Intvl="10" ExtroPara="text::Station #1;fsize::20;color::#ffffffff;backcolor::#00ffffff;" />
+		<CHIP ID="5" Pageid="1" Type="0" PosX="468" PosY="629" Width="231" Height="242" Intvl="10" ExtroPara="uint::ON;tlcolor::#ffffffff;vlcolor::#ffffffff;gdcolor::#FFCFCCC9;backcolor::#00ffffff;">
+			<DeviceData DeviceID="5" DataID="1" />
+			<DeviceData DeviceID="5" DataID="3" />
+			<DeviceData DeviceID="5" DataID="4" />
+			<DeviceData DeviceID="5" DataID="5" />
+			<DeviceData DeviceID="5" DataID="6" />
+			<DeviceData DeviceID="5" DataID="7" />
+			<DeviceData DeviceID="5" DataID="8" />
+			<DeviceData DeviceID="5" DataID="9" />
+		</CHIP>
+		<CHIP ID="6" Pageid="1" Type="18" PosX="480" PosY="564" Width="200" Height="50" Intvl="10" ExtroPara="text::Station #2;fsize::20;color::#ffffffff;backcolor::#00ffffff;" />
+		<CHIP ID="7" Pageid="1" Type="18" PosX="821" PosY="564" Width="200" Height="50" Intvl="10" ExtroPara="text::Station #3;fsize::20;color::#ffffffff;backcolor::#00ffffff;" />
+		<CHIP ID="8" Pageid="1" Type="0" PosX="805" PosY="629" Width="231" Height="242" Intvl="10" ExtroPara="uint::ON;tlcolor::#ffffffff;vlcolor::#ffffffff;gdcolor::#FFCFCCC9;backcolor::#00ffffff;">
+			<DeviceData DeviceID="6" DataID="1" />
+			<DeviceData DeviceID="6" DataID="3" />
+			<DeviceData DeviceID="6" DataID="4" />
+			<DeviceData DeviceID="6" DataID="5" />
+			<DeviceData DeviceID="6" DataID="6" />
+			<DeviceData DeviceID="6" DataID="7" />
+			<DeviceData DeviceID="6" DataID="8" />
+			<DeviceData DeviceID="6" DataID="9" />
+		</CHIP>
+		<CHIP ID="10" Pageid="1" Type="24" PosX="530" PosY="281" Width="69" Height="69" Intvl="10" ExtroPara="layout::0;openV::1;closeV::0;openC::#ff00aa00;closeC::#ffe8e800;default::0;openSk::OFF;shrkHz::2;tagshow::OFF;tagcolor::#FF000000;fsize::15;">
+			<DeviceData DeviceID="5" DataID="2" />
+		</CHIP>
+		<CHIP ID="11" Pageid="1" Type="24" PosX="857" PosY="281" Width="69" Height="69" Intvl="10" ExtroPara="layout::0;openV::1;closeV::0;openC::#ff00aa00;closeC::#ffe8e800;default::0;openSk::OFF;shrkHz::2;tagshow::OFF;tagcolor::#FF000000;fsize::15;">
+			<DeviceData DeviceID="6" DataID="2" />
+		</CHIP>
+		<CHIP ID="12" Pageid="0" Type="18" PosX="573" PosY="37" Width="773" Height="59" Intvl="10" ExtroPara="text::Charging Station Monitor System;fsize::40;color::#ffffffff;backcolor::#00ffffff;" />
+		<CHIP ID="14" Pageid="1" Type="23" PosX="1614" PosY="564" Width="229" Height="50" Intvl="10" ExtroPara="bodercolor::#ffffffff;boderwidth::1;backcolor::#ff3cb48b;tlname::Total Power;tlcolor::#ffffffff;pos::3;vlcolor::#ffffffff;preci::1;default::0;uint::kW;">
+			<DeviceData DeviceID="1" DataID="1" />
+			<DeviceData DeviceID="5" DataID="1" />
+			<DeviceData DeviceID="6" DataID="1" />
+		</CHIP>
+		<CHIP ID="16" Pageid="1" Type="23" PosX="1077" PosY="564" Width="244" Height="50" Intvl="10" ExtroPara="bodercolor::#ffffffff;boderwidth::1;backcolor::#ff3cb48b;tlname::Total Elec.;tlcolor::#ffffffff;pos::3;vlcolor::#ffffffff;preci::1;default::0;uint::kW;">
+			<DeviceData DeviceID="1" DataID="5" />
+			<DeviceData DeviceID="5" DataID="5" />
+			<DeviceData DeviceID="6" DataID="5" />
+		</CHIP>
+		<CHIP ID="17" Pageid="1" Type="23" PosX="1326" PosY="564" Width="283" Height="50" Intvl="10" ExtroPara="bodercolor::#ffffffff;boderwidth::1;backcolor::#ff3cb48b;tlname::Today's Elec.;tlcolor::#ffffffff;pos::3;vlcolor::#ffffffff;preci::1;default::0;uint::kW;">
+			<DeviceData DeviceID="1" DataID="4" />
+			<DeviceData DeviceID="5" DataID="4" />
+			<DeviceData DeviceID="6" DataID="4" />
+		</CHIP>
+		<CHIP ID="22" Pageid="1" Type="8" PosX="1312" PosY="266" Width="282" Height="271" Intvl="10" ExtroPara="max::100;min::0;alr::62;default::50;preci::1;cvcolor1::#ff00aa7f;cvcolor2::#ffff007f;">
+			<DeviceData DeviceID="1" DataID="1" />
+		</CHIP>
+		<CHIP ID="50" Pageid="1" Type="17" PosX="977" PosY="261" Width="73" Height="143" Intvl="10" ExtroPara="color::#ffffffff;width::5;actw::0;actl::1;points::3;pinfo::41 136,39 43,15 17,;">
+			<DeviceData DeviceID="6" DataID="2" />
+		</CHIP>
+		<CHIP ID="51" Pageid="1" Type="1" PosX="1074" PosY="617" Width="786" Height="265" Intvl="10" ExtroPara="tagcolor::#ffffffff;cvcolor1::#ffaaffff;cvcolor2::#ffffaa7f;cvcolor3::#ff0055ff;showlegend::ON;period::30;">
+			<DeviceData DeviceID="1" DataID="1" />
+			<DeviceData DeviceID="1" DataID="7" />
+			<DeviceData DeviceID="1" DataID="9" />
+		</CHIP>
+		<CHIP ID="52" Pageid="1" Type="17" PosX="645" PosY="258" Width="73" Height="143" Intvl="10" ExtroPara="color::#ffffffff;width::5;actw::0;actl::1;points::3;pinfo::47 142,48 46,18 17,;">
+			<DeviceData DeviceID="5" DataID="2" />
+		</CHIP>
+		<CHIP ID="53" Pageid="1" Type="17" PosX="318" PosY="258" Width="73" Height="143" Intvl="10" ExtroPara="color::#ffffffff;width::5;actw::0;actl::1;points::3;pinfo::47 138,48 46,20 19,;">
+			<DeviceData DeviceID="1" DataID="2" />
+		</CHIP>
+		<CHIP ID="54" Pageid="1" Type="24" PosX="1165" PosY="300" Width="46" Height="40" Intvl="10" ExtroPara="layout::0;openV::1;closeV::0;openC::#ffef8a87;closeC::#ffffffff;default::0;openSk::OFF;shrkHz::2;tagshow::OFF;tagcolor::#FF000000;fsize::15;">
+			<DeviceData DeviceID="6" DataID="2" />
+		</CHIP>
+		<CHIP ID="55" Pageid="1" Type="24" PosX="1677" PosY="299" Width="46" Height="40" Intvl="10" ExtroPara="layout::0;openV::1;closeV::0;openC::#ffef8a87;closeC::#ffffffff;default::0;openSk::OFF;shrkHz::2;tagshow::OFF;tagcolor::#FF000000;fsize::15;">
+			<DeviceData DeviceID="6" DataID="2" />
+		</CHIP>
+	</SYS_DATA>
+	<DEVICE_LIST>
+		<DEVICE ID="1" Name="[M]Station-1" DeviceType="1" BindMode="0" BindDeviceID="0" Addr="1" ForwardZero="0" AddrUIMode="0" CRCByteOder="1" BlockBitOder="0" AddrOffset="0" PackWay="1" BitGap="0" RegGap="5" OneReg10="0" OneCoil0F="0" BCast1="0" BCast2="0" IsBCDevice="0" BathReadMode="2" BathWriteMode="0">
+			<PORTS>
+				<NET000 />
+			</PORTS>
+			<SELF_LIST />
+			<DATA_LIST>
+				<DATA ID="1" Name="Output Power" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kW" ShowType="0" Addr="100" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="0" Coef_b="1" Coef_c="1" Coef_d="1" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="2" Name="Operating Status" BLOCK="3" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="2" Addr="102" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="3" Name="Duration" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="Hour" ShowType="0" Addr="103" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="4" Name="Day Electricity " BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kWh" ShowType="0" Addr="105" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="5" Name="All Electricity " BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kWh" ShowType="0" Addr="107" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="1" TimeBngrWay="0" Coef_a="0" Coef_b="100" Coef_c="12" Coef_d="" Coef_e="0" ResetStep="1" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="6" Name="Voltage(AC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="V" ShowType="0" Addr="110" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#ff0000" />
+					<VALUE Stategy="2" TimeBngrWay="1" Coef_a="6" Coef_b="6" Coef_c="0" Coef_d="12" Coef_e="0" ResetStep="12" XInvl="10" MaxRadom="0.20000000000000001" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="7" Name="Current(AC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="A" ShowType="0" Addr="111" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#005500" />
+					<VALUE Stategy="3" TimeBngrWay="0" Coef_a="20" Coef_b="6" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="2" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="8" Name="Voltage(DC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="V" ShowType="0" Addr="112" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0X64" Coef_b="0" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="9" Name="Current(DC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="A" ShowType="0" Addr="113" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="500" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#0000ff" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="1" Coef_b="0.1" Coef_c="0" Coef_d="0.1" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+			</DATA_LIST>
+		</DEVICE>
+		<DEVICE ID="2" Name="[S]Station-1" DeviceType="2" BindMode="0" BindDeviceID="0" Addr="1" ForwardZero="0" AddrUIMode="0" CRCByteOder="1" BlockBitOder="0" AddrOffset="0" PackWay="0" BitGap="0" RegGap="5" OneReg10="0" OneCoil0F="0" BCast1="0" BCast2="0" IsBCDevice="0" BathReadMode="0" BathWriteMode="0">
+			<PORTS>
+				<NET001 />
+			</PORTS>
+			<SELF_LIST />
+			<DATA_LIST>
+				<DATA ID="1" Name="Output Power" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kW" ShowType="0" Addr="100" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="3" TimeBngrWay="0" Coef_a="1" Coef_b="1" Coef_c="60" Coef_d="1" Coef_e="0" ResetStep="0" XInvl="100" MaxRadom="2" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="2" Name="Operating Status" BLOCK="3" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="2" Addr="102" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="0" Coef_b="0.001" Coef_c="1" Coef_d="0.001" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="3" Name="Duration" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="Hour" ShowType="0" Addr="103" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="1" TimeBngrWay="0" Coef_a="100" Coef_b="160" Coef_c="60" Coef_d="" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="4" Name="Today's Consumption" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kWh" ShowType="0" Addr="105" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="1" TimeBngrWay="0" Coef_a="52" Coef_b="120" Coef_c="3" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="5" Name="Accumulated Consumption" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kWh" ShowType="0" Addr="107" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="1" TimeBngrWay="0" Coef_a="580" Coef_b="1300" Coef_c="3" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="6" Name="Voltage(AC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="V" ShowType="0" Addr="110" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#ff0000" />
+					<VALUE Stategy="3" TimeBngrWay="1" Coef_a="10" Coef_b="0.01" Coef_c="380" Coef_d="0" Coef_e="0" ResetStep="12" XInvl="1000" MaxRadom="10" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="7" Name="Current(AC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="A" ShowType="0" Addr="111" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#005500" />
+					<VALUE Stategy="3" TimeBngrWay="1" Coef_a="5" Coef_b="0.01" Coef_c="90" Coef_d="0" Coef_e="0" ResetStep="12" XInvl="1000" MaxRadom="2" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="8" Name="Voltage(DC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="V" ShowType="0" Addr="112" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="3" TimeBngrWay="1" Coef_a="1" Coef_b="0.01" Coef_c="1200" Coef_d="0" Coef_e="0" ResetStep="12" XInvl="1000" MaxRadom="5" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="9" Name="Current(DC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="A" ShowType="0" Addr="113" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#0000ff" />
+					<VALUE Stategy="3" TimeBngrWay="1" Coef_a="5" Coef_b="0.01" Coef_c="50" Coef_d="0" Coef_e="0" ResetStep="12" XInvl="1000" MaxRadom="10" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+			</DATA_LIST>
+		</DEVICE>
+		<DEVICE ID="5" Name="[M]Station-2" DeviceType="1" BindMode="0" BindDeviceID="0" Addr="2" ForwardZero="0" AddrUIMode="0" CRCByteOder="1" BlockBitOder="0" AddrOffset="0" PackWay="1" BitGap="0" RegGap="5" OneReg10="0" OneCoil0F="0" BCast1="0" BCast2="0" IsBCDevice="0" BathReadMode="2" BathWriteMode="0">
+			<PORTS>
+				<NET000 />
+			</PORTS>
+			<SELF_LIST />
+			<DATA_LIST>
+				<DATA ID="1" Name="Output Power" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kW" ShowType="0" Addr="100" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="0" Coef_b="1" Coef_c="1" Coef_d="1" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="2" Name="Operating Status" BLOCK="3" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="2" Addr="102" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="3" Name="Duration" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="Hour" ShowType="0" Addr="103" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="4" Name="Day Electricity " BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kWh" ShowType="0" Addr="105" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="5" Name="All Electricity " BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kWh" ShowType="0" Addr="107" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="1" TimeBngrWay="0" Coef_a="0" Coef_b="100" Coef_c="12" Coef_d="" Coef_e="0" ResetStep="1" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="6" Name="Voltage(AC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="V" ShowType="0" Addr="110" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#ff0000" />
+					<VALUE Stategy="2" TimeBngrWay="1" Coef_a="6" Coef_b="6" Coef_c="0" Coef_d="12" Coef_e="0" ResetStep="12" XInvl="10" MaxRadom="0.20000000000000001" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="7" Name="Current(AC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="A" ShowType="0" Addr="111" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#005500" />
+					<VALUE Stategy="3" TimeBngrWay="0" Coef_a="20" Coef_b="6" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="2" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="8" Name="Voltage(DC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="V" ShowType="0" Addr="112" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0X64" Coef_b="0" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="9" Name="Current(DC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="A" ShowType="0" Addr="113" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="500" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#0000ff" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="1" Coef_b="0.1" Coef_c="0" Coef_d="0.1" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+			</DATA_LIST>
+		</DEVICE>
+		<DEVICE ID="6" Name="[M]Station-3" DeviceType="1" BindMode="0" BindDeviceID="0" Addr="3" ForwardZero="0" AddrUIMode="0" CRCByteOder="1" BlockBitOder="0" AddrOffset="0" PackWay="1" BitGap="0" RegGap="5" OneReg10="0" OneCoil0F="0" BCast1="0" BCast2="0" IsBCDevice="0" BathReadMode="2" BathWriteMode="0">
+			<PORTS>
+				<NET000 />
+			</PORTS>
+			<SELF_LIST />
+			<DATA_LIST>
+				<DATA ID="1" Name="Output Power" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kW" ShowType="0" Addr="100" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="0" Coef_b="1" Coef_c="1" Coef_d="1" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="2" Name="Operating Status" BLOCK="3" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="2" Addr="102" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="3" Name="Duration" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="Hour" ShowType="0" Addr="103" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="4" Name="Day Electricity " BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kWh" ShowType="0" Addr="105" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0" Coef_b="0" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="5" Name="All Electricity " BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kWh" ShowType="0" Addr="107" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="1" TimeBngrWay="0" Coef_a="0" Coef_b="100" Coef_c="12" Coef_d="" Coef_e="0" ResetStep="1" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="6" Name="Voltage(AC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="V" ShowType="0" Addr="110" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#ff0000" />
+					<VALUE Stategy="2" TimeBngrWay="1" Coef_a="6" Coef_b="6" Coef_c="0" Coef_d="12" Coef_e="0" ResetStep="12" XInvl="10" MaxRadom="0.20000000000000001" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="7" Name="Current(AC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="A" ShowType="0" Addr="111" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#005500" />
+					<VALUE Stategy="3" TimeBngrWay="0" Coef_a="20" Coef_b="6" Coef_c="0" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="2" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="8" Name="Voltage(DC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="V" ShowType="0" Addr="112" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="0" TimeBngrWay="0" Coef_a="0X64" Coef_b="0" Coef_c="0" Coef_d="" Coef_e="0" ResetStep="0" XInvl="10" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="9" Name="Current(DC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="A" ShowType="0" Addr="113" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="500" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#0000ff" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="1" Coef_b="0.1" Coef_c="0" Coef_d="0.1" Coef_e="0" ResetStep="0" XInvl="1" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+			</DATA_LIST>
+		</DEVICE>
+		<DEVICE ID="7" Name="[S]Station-2" DeviceType="2" BindMode="0" BindDeviceID="0" Addr="2" ForwardZero="0" AddrUIMode="0" CRCByteOder="1" BlockBitOder="0" AddrOffset="0" PackWay="1" BitGap="0" RegGap="5" OneReg10="0" OneCoil0F="0" BCast1="0" BCast2="0" IsBCDevice="0" BathReadMode="0" BathWriteMode="0">
+			<PORTS>
+				<NET001 />
+			</PORTS>
+			<SELF_LIST />
+			<DATA_LIST>
+				<DATA ID="1" Name="Output Power" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kW" ShowType="0" Addr="100" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="3" TimeBngrWay="0" Coef_a="1" Coef_b="1" Coef_c="60" Coef_d="1" Coef_e="0" ResetStep="0" XInvl="100" MaxRadom="2" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="2" Name="Operating Status" BLOCK="3" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="2" Addr="102" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="0" Coef_b="0.001" Coef_c="1" Coef_d="0.001" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="3" Name="Duration" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="Hour" ShowType="0" Addr="103" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="1" TimeBngrWay="0" Coef_a="100" Coef_b="160" Coef_c="60" Coef_d="" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="4" Name="Today's Consumption" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kWh" ShowType="0" Addr="105" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="1" TimeBngrWay="0" Coef_a="52" Coef_b="120" Coef_c="3" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="5" Name="Accumulated Consumption" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kWh" ShowType="0" Addr="107" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="1" TimeBngrWay="0" Coef_a="580" Coef_b="1300" Coef_c="3" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="6" Name="Voltage(AC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="V" ShowType="0" Addr="110" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#ff0000" />
+					<VALUE Stategy="3" TimeBngrWay="1" Coef_a="10" Coef_b="0.01" Coef_c="380" Coef_d="0" Coef_e="0" ResetStep="12" XInvl="1000" MaxRadom="10" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="7" Name="Current(AC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="A" ShowType="0" Addr="111" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#005500" />
+					<VALUE Stategy="3" TimeBngrWay="1" Coef_a="5" Coef_b="0.01" Coef_c="90" Coef_d="0" Coef_e="0" ResetStep="12" XInvl="1000" MaxRadom="2" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="8" Name="Voltage(DC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="V" ShowType="0" Addr="112" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="3" TimeBngrWay="1" Coef_a="1" Coef_b="0.01" Coef_c="1200" Coef_d="0" Coef_e="0" ResetStep="12" XInvl="1000" MaxRadom="5" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="9" Name="Current(DC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="A" ShowType="0" Addr="113" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#0000ff" />
+					<VALUE Stategy="3" TimeBngrWay="1" Coef_a="5" Coef_b="0.01" Coef_c="50" Coef_d="0" Coef_e="0" ResetStep="12" XInvl="1000" MaxRadom="10" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+			</DATA_LIST>
+		</DEVICE>
+		<DEVICE ID="8" Name="[S]Station-3" DeviceType="2" BindMode="0" BindDeviceID="0" Addr="3" ForwardZero="0" AddrUIMode="0" CRCByteOder="1" BlockBitOder="0" AddrOffset="0" PackWay="1" BitGap="0" RegGap="5" OneReg10="0" OneCoil0F="0" BCast1="0" BCast2="0" IsBCDevice="0" BathReadMode="0" BathWriteMode="0">
+			<PORTS>
+				<NET001 />
+			</PORTS>
+			<SELF_LIST />
+			<DATA_LIST>
+				<DATA ID="1" Name="Output Power" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kW" ShowType="0" Addr="100" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="3" TimeBngrWay="0" Coef_a="1" Coef_b="1" Coef_c="60" Coef_d="1" Coef_e="0" ResetStep="0" XInvl="100" MaxRadom="2" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="2" Name="Operating Status" BLOCK="3" PrtcTYPE="1" PointNum="0" Unit="--" ShowType="2" Addr="102" Gain="1" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="4" TimeBngrWay="0" Coef_a="0" Coef_b="0.001" Coef_c="1" Coef_d="0.001" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="3" Name="Duration" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="Hour" ShowType="0" Addr="103" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="1" TimeBngrWay="0" Coef_a="100" Coef_b="160" Coef_c="60" Coef_d="" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="4" Name="Today's Consumption" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kWh" ShowType="0" Addr="105" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="1" TimeBngrWay="0" Coef_a="52" Coef_b="120" Coef_c="3" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="5" Name="Accumulated Consumption" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="kWh" ShowType="0" Addr="107" Gain="0.10000000000000001" Offset="0" Size="2" BitOffset="0" BitNum="32" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="1" TimeBngrWay="0" Coef_a="580" Coef_b="1300" Coef_c="3" Coef_d="0" Coef_e="0" ResetStep="0" XInvl="1000" MaxRadom="0" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="6" Name="Voltage(AC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="V" ShowType="0" Addr="110" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#ff0000" />
+					<VALUE Stategy="3" TimeBngrWay="1" Coef_a="10" Coef_b="0.01" Coef_c="380" Coef_d="0" Coef_e="0" ResetStep="12" XInvl="1000" MaxRadom="10" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="7" Name="Current(AC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="A" ShowType="0" Addr="111" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#005500" />
+					<VALUE Stategy="3" TimeBngrWay="1" Coef_a="5" Coef_b="0.01" Coef_c="90" Coef_d="0" Coef_e="0" ResetStep="12" XInvl="1000" MaxRadom="2" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="8" Name="Voltage(DC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="V" ShowType="0" Addr="112" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="" />
+					<VALUE Stategy="3" TimeBngrWay="1" Coef_a="1" Coef_b="0.01" Coef_c="1200" Coef_d="0" Coef_e="0" ResetStep="12" XInvl="1000" MaxRadom="5" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+				<DATA ID="9" Name="Current(DC)" BLOCK="3" PrtcTYPE="1" PointNum="1" Unit="A" ShowType="0" Addr="113" Gain="0.10000000000000001" Offset="0" Size="1" BitOffset="0" BitNum="16" Range="--" CmdValue="" Color="" ByteOder="0" WordOder="0" IntervalTime="0" IsShow="1" IsBRead="1" IsBWrite="0">
+					<TIMEOUT Time="2000" ResendCount="0" />
+					<CURVE IsShow="0" IsVisible="1" IsRightY="0" LineWidth="1" Color="#0000ff" />
+					<VALUE Stategy="3" TimeBngrWay="1" Coef_a="5" Coef_b="0.01" Coef_c="50" Coef_d="0" Coef_e="0" ResetStep="12" XInvl="1000" MaxRadom="10" MinRadom="0" MaxValue="0" MinValue="0" datarry="--" BindDeviceID="0" BindDataID="0" />
+				</DATA>
+			</DATA_LIST>
+		</DEVICE>
+	</DEVICE_LIST>
+</MThings>
